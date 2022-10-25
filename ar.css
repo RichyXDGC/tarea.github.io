@@ -1,0 +1,37 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+    border-radius: 0.5cm;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor div{
+    background: linear-gradient(#f1f1f1,rgb(160, 155, 155));
+    color: black;
+    padding: 2em;
+    font-size: 18px;
+    border-radius: 0.5cm;
+    height: 600px;
+    width: 250px;
+    justify-content: center;
+}
+.contenedor div:hover{
+    border: 5px solid rgb(227, 206, 173);
+    background: linear-gradient(rgba(80, 50, 5, 0.827),rgb(0, 0, 0));
+    border-radius: 0.5cm;
+    justify-content: center;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 24px;
+    justify-content: center;
+}
+.background{
+    background:linear-gradient(rgba(80, 50, 5, 0.827),rgb(0, 0, 0));
+}
